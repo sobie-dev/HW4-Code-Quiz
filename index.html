@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="countdown"></div>
-    <div class="container">
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class="answer-btn">
-                <button class="btn">answer1</button>
-                <button class="btn">answer2</button>
-                <button class="btn">answer3</button>
-                <button class="btn">answer4</button>
-            </div>
-        <div class="controls">
-            <button id="start-btn">Start</button>
-        </div>
+    <h4 id="highscores"><a href="scores.html">View Highscores</a></h4>
+    <h4 id="timer"></h4>
+<main class="container">
+    <section id="startBox">
+        <h1>The Office Quiz</h1>
+        <p>Answer the following questions within the time limit. <br>
+        Your score will be the remaining time. You lose 10 seconds per wrong answer.</p>
+        <button type="button" id="startBtn">Start</button>
+    </section>    
+           
+    <div id="quizBox" class="hide">
+        <div id="message"></div>
     </div>
+
+    <section id="userInitialsBox" class="hide"></section>
+    <section id="highscoresBox" class="hide"></section>
+</main>
     <script src="./script.js"></script>
 </body>
 </html>
