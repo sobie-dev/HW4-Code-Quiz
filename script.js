@@ -16,28 +16,28 @@ var quizQuestions =
   {
     question: "What is Michael Scott's middle name?",
     choices: ["Larry", "Brian", "Gary", "James"],
-    correctAnswer: "c"
+    correctAnswer: 2
   },
   
   {
     question: "Where does The Office take place?",
     choices: ["Los Angeles", "Scranton", "Miami", "New York"],
-    correctAnswer: "b"
+    correctAnswer: 1
   },
   {
    question: "What size Chicken pot-pie does Michael eat?",
    choices: ["Small", "Regular", "Large", "Family-Size"],
-   correctAnswer: "d"
+   correctAnswer: 3
   },
   {
     question: "What season does the Dinner Party episode take place?",
     choices: ["Season 1", "Season 5", "Season 3", "Season 4"],
-    correctAnswer: "d"
+    correctAnswer: 3
   },
   {
     question: "Where does Jim propose to Pam?",
     choices: ["Breakroom", "Gas Station", "Parking Lot", "Restaurant"],
-    correctAnswer: "b"
+    correctAnswer: 1
   }
 ];
 var quizIndex = 0

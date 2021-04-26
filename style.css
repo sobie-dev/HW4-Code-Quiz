@@ -1,0 +1,46 @@
+h4 {
+    text-align: start;
+}
+main {
+    text-align: center;
+}
+#timer {
+    text-align: end;
+}
+section {
+    color: darkgreen;
+
+}
+body {
+    background-color: cadetblue;
+  
+}
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: cornsilk;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px; 
+}
+button {
+    width: 100px;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 10px 2px; 
+}
+p {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+#quizBox {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+     color: black;
+     margin: 50px;
+}
