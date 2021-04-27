@@ -9,10 +9,11 @@ main {
 }
 section {
     color: darkgreen;
+    align-content: center;
 
 }
 body {
-    background-color: cadetblue;
+    background-color:rgb(116, 147, 161);
   
 }
 .container {
@@ -22,6 +23,8 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px; 
+    display: flex;
+    margin: auto;
 }
 button {
     width: 100px;
